@@ -140,3 +140,75 @@ h3 {
 .call-now button{
     margin-top: 25px;
 }
+
+.call-now h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 130px;
+    height: 550px;
+    background: #151414;
+}
+
+.footer-flex{
+    display: flex;
+    gap: 330px;
+    padding: 130px 230px;
+    color: #FFFFFF;
+
+}
+
+.future{
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 16px;
+}
+
+.future-description{
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 25px;
+}
+
+.info{
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    
+}
+
+/* subscribe  */
+
+.subscribe h4 {
+    font-weight: 600;
+font-size: 25px;
+margin-bottom: 30px;
+}
+
+
+.subscribe input[type='email'] {
+    height: 64px;
+    width: 300px;
+    padding-left: 20px;
+    margin-bottom: 16px;
+    color: #F3F3F3;
+}
+
+.subscribe input[type='submit'] {
+    background: #005FAC;
+    color: #FFFFFF;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border-style: none;
+}
