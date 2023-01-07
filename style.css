@@ -26,9 +26,11 @@
     font-size: 16px;
     padding: 0 180px 30px 55%;
 }
-.header button{
+
+.header button {
     margin: 0 180px;
 }
+
 /* Button primary */
 .btn-primary {
     background: #FFFFFF;
@@ -39,4 +41,46 @@
     padding: 20px 25px;
     border-radius: 5px;
     border-style: none;
+}
+
+/* failures-of-previous-year section */
+.failures-of-previous-year {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.failures-of-previous-year img {
+    width: 550px;
+    height: 720px;
+    margin: 130px 0 0 200px;
+}
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failures-description {
+    margin-top: 370px;
+    margin-right: 20%;
+}
+
+.failures-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.failures-description i {
+    color: aqua;
+    margin-right: 10px;
+}
+
+.failures-paragraph{
+    margin-bottom: 20px;
 }
