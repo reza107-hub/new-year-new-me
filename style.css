@@ -43,6 +43,14 @@
     border-style: none;
 }
 
+button:hover {
+    background-color: chocolate;
+}
+
+.footer input[type='submit']:hover {
+    background-color: chocolate;
+}
+
 /* failures-of-previous-year section */
 .failures-of-previous-year {
     display: flex;
@@ -126,35 +134,35 @@ h3 {
 
 /* call now section */
 .call-now {
-    
+
     height: 250px;
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('images/watch.png');
     border-radius: 8px;
-    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 130px 10% 0 10%;
     padding: 60px 0 0 65px;
 }
 
-.call-now button{
+.call-now button {
     margin-top: 25px;
 }
 
 .call-now h2 {
     font-weight: 700;
     font-size: 40px;
+    color: #FFFFFF;
 }
 
 /* footer */
 
-.footer{
+.footer {
     margin-top: 130px;
     height: 550px;
     background: #151414;
 }
 
-.footer-flex{
+.footer-flex {
     display: flex;
     gap: 330px;
     padding: 130px 230px;
@@ -162,35 +170,35 @@ h3 {
 
 }
 
-.future{
+.future {
     font-weight: 700;
-font-size: 45px;
-margin-bottom: 16px;
+    font-size: 45px;
+    margin-bottom: 16px;
 }
 
-.future-description{
+.future-description {
     font-weight: 400;
-font-size: 16px;
-margin-bottom: 25px;
+    font-size: 16px;
+    margin-bottom: 25px;
 }
 
-.info{
+.info {
     font-weight: 400;
-font-size: 16px;
-margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
-    
+
 }
 
 /* subscribe  */
 
 .subscribe h4 {
     font-weight: 600;
-font-size: 25px;
-margin-bottom: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 
@@ -212,3 +220,33 @@ margin-bottom: 30px;
     border-radius: 5px;
     border-style: none;
 }
+
+
+
+/* new-section-flexing */
+
+.new-section{
+    margin-top: 130px;
+}
+.new-section-head{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.new-section-flexing{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.new-section-flexing img {
+    height: 350px;
+}
+
+.new-section-description {
+    margin-top: 75px;
+    color: #737272;
+    font-weight: 40px;
+}
+
