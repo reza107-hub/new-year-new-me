@@ -88,12 +88,12 @@
 
 /* my plans section css */
 
-.My-Plans{
+.My-Plans {
     margin-top: 130px;
     text-align: center;
 }
 
-.My-Plans > h3 {
+.My-Plans>h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -107,19 +107,36 @@
     justify-content: center;
 }
 
-.plans-description img, h3{
+.plans-description img,
+h3 {
     margin-bottom: 20px
 }
 
-.plans-description h3{
+.plans-description h3 {
     font-weight: 800;
-font-size: 30px;
-color: #151414;
+    font-size: 30px;
+    color: #151414;
 }
 
-.plans-description p{
+.plans-description p {
     color: #737272;
-    
+
 }
 
 
+/* call now section */
+.call-now {
+    
+    height: 250px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('images/watch.png');
+    border-radius: 8px;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 130px 10% 0 10%;
+    padding: 60px 0 0 65px;
+}
+
+.call-now button{
+    margin-top: 25px;
+}
