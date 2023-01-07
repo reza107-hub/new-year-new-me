@@ -57,6 +57,7 @@
     height: 720px;
     margin: 130px 0 0 200px;
 }
+
 .failures-title {
     font-weight: 700;
     font-size: 40px;
@@ -81,6 +82,44 @@
     margin-right: 10px;
 }
 
-.failures-paragraph{
+.failures-paragraph {
     margin-bottom: 20px;
 }
+
+/* my plans section css */
+
+.My-Plans{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.My-Plans > h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.My-Plans .plans {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.plans-description img, h3{
+    margin-bottom: 20px
+}
+
+.plans-description h3{
+    font-weight: 800;
+font-size: 30px;
+color: #151414;
+}
+
+.plans-description p{
+    color: #737272;
+    
+}
+
+
